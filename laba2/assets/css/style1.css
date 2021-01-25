@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    background: #000000;
+    border-radius: 100%;
+    height: 0.5em;
+    width: 0.5em;
+    position: relative;
+    left: 30px;
+    top: 0.4em;
+    display: inline-block;
+}
+
+.header {
+    background: #774a96;
+    height: 2em;
+    font-size: 28px;
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    font-style: normal;
+    bottom: 1.7em;
+    color: #000000;
+}
+
+
+.logo {
+    position: relative;
+    left: 20em;
+    top: 20px;
+    margin-bottom: 2em;
+}
+
+.link {
+    position: relative;
+    font-size: 20px;
+    left: 45em;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    bottom: 1.5em;
+}
+
+
+.tg {
+    border-collapse: collapse;
+    color: #774a96;
+}
+
+.tg td {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Times New Roman", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    padding: 12px 17px;
+    word-break: normal;
+    text-align: center;
+}
+
+.tg .tg-top {
+    background: #d9d4e2;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* свойства модального окна по умолчанию */
+.modal {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* при отображении модального окна */
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: 600px;
+    margin: 30px auto;
+}
+
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+    position: relative;
+    background: #3c0648;
+    border: 1px solid #8801ff;
+    border-radius: 0.3rem;
+}
+
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: flex;
+    border: 1px solid #000000;
+    padding: 5px;
+    justify-content: space-between;
+    background: #5f2f81;
+    margin: 0;
+}
+
+
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+    padding: 30px;
+}
+
+.sg {
+    font-family: "Times New Roman", sans-serif;
+    color: #101010;
+    font-size: 22px;
+    padding: 5px;
+    word-break: normal;
+}
+
+.sg td {
+    padding: 5px;
+    color: #ffffff;
+}
+
+.modal-footer {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #9975c4;
+    font-size: 18px;
+    border-radius: 10%;
+    padding: 10px 17px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.admin_inform {
+    font-size: 22px;
+    border: 1px solid #000000;
+    padding: 12px 17px;
+    color: #000000;
+    width: 12em;
+    margin: 5px;
+    display: table;
+}
+
+.tg .tg-user {
+    background: #8126d6;
+}
+
+.inform {
+    font-size: 22px;
+    border: 1px solid #000000;
+    padding: 12px 17px;
+    color: #000000;
+    width: 10em;
+    background: #7700ff;
+}
+
+.register {
+    padding: 12px 16px;
+    width: 18em;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid;
+    margin: 1.5em;
+    display: block;
+}
+
+.er {
+    font-size: 28px;
+    color: red;
+    text-align: center;
+}
